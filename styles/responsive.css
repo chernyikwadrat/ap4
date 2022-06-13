@@ -1,0 +1,1421 @@
+/*------------------------------------------------------------1440---------------------------------------------------*/
+
+@media screen and (max-width: 1440px) {
+  .container {
+    grid-template-rows: repeat(13, 200px);
+  }
+  .text-1 {
+    font-size: 166px;
+    line-height: 120px;
+  }
+  .text-1 * {
+    padding-left: 40px;
+  }
+  .text-1 #h1-text-1 {
+    padding-left: 260px;
+  }
+  .smile-1 {
+    padding-left: 18px;
+    padding-top: 16px;
+  }
+  .smile-1 img {
+    width: 80px;
+    height: 40px;
+  }
+  .scream p:nth-child(1) {
+    margin-left: -130px;
+  }
+  .scream p:nth-child(3) {
+    margin-left: 60px;
+    width: 160px;
+    text-align: right;
+  }
+  .scream-img {
+    background: url('../images/mouth.png') center/65% no-repeat;
+  }
+  .tears-1 img {
+    height: 52px;
+    width: 28px;
+  }
+  .slides-1 {
+    background: url(../images/slides-1.gif) center no-repeat;
+  }
+  .slides-1 > div:nth-child(1) {
+    margin-left: 210px;
+    margin-top: 64px;
+  }
+  .slides-1 > div:nth-child(2) {
+    margin-bottom: 64px;
+    width: 430px;
+  }
+  .child > img:nth-child(1) {
+    height: 690px;
+    width: 215px;
+  }
+  .child > img:nth-child(2) {
+    height: 500px;
+    width: 440px;
+  }
+  .child > img:nth-child(3) {
+    height: 690px;
+    width: 215px;
+  }
+  .hands-1 > p {
+    width: 440px;
+  }
+  .hands-1 > .hands-1-hands {
+    margin-top: 100px;
+  }
+  .hands-1 > .hands-1-hands> img:nth-child(1) {
+    height: 190px;
+  }
+  .hands-1 >.hands-1-hands > img:nth-child(2) {
+    height: 190px;
+  }
+  .hands-1 >.lines {
+    margin-top: 48px;
+    width: 280px;
+  }
+  .hands-1 >.lines> img {
+    height: 40px;
+  }
+  @keyframes hands-1 {
+    0% {
+      transform: translateY(80px) rotate(15deg);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(80px) rotate(15deg);
+    }
+  }
+  @keyframes hands-2 {
+    0% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+    50% {
+      transform: scale(-1, 1) translateY(80px) rotate(15deg);
+      ;
+    }
+    100% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+  }
+  .text-2 > .signs {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 24px;
+  }
+  .text-2 > .signs > p {
+    font-size: 320px;
+  }
+  .text-2 > .text-2-a {
+    margin-left: 16px;
+    margin-top: -330px;
+  }
+  .text-2 > .text-2-a > p {
+    font-size: 70px;
+  }
+  .eyes-1 > .brows-1 {
+    width: 490px;
+  }
+  .eyes-1 > .brows-1 img {
+    width: 220px;
+  }
+  .eyes-1 > .eyes-1-1 {
+    width: 440px;
+  }
+  .eyes-1 > .eyes-1-1 img {
+    width: 180px;
+  }
+  .scream-2 > div {
+    margin-left: 40px;
+    margin-top: -420px;
+  }
+  .scream-2 > p {
+    font-size: 400px;
+    margin-left: 72px;
+    margin-top: -24px;
+  }
+  @keyframes movement-1 {
+    0% {
+      transform: scale(0.7, 0.7);
+    }
+    25% {
+      transform: scale(0.8, 0.8) translate(280px, 80px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.5, 0.5) translate(-120px, 80px);
+    }
+    75% {
+      transform: scale(0.6, 0.6) translate(360px, 120px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.7, 0.7) translate(120px, 200px) rotate(-10deg);
+      ;
+    }
+  }
+  @keyframes movement-2 {
+    0% {
+      transform: scale(0.6, 0.6);
+    }
+    25% {
+      transform: scale(0.5, 0.5) translate(-120px, -48px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.6, 0.6) translate(-350px, 40px) rotate(20deg);
+    }
+    75% {
+      transform: scale(0.5, 0.5) translate(0px, 320px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.6, 0.6);
+    }
+  }
+  @keyframes movement-3 {
+    0% {
+      transform: scale(0.6, 0.6);
+    }
+    25% {
+      transform: scale(0.5, 0.5) translate(-100px, -48px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.7, 0.7) translate(220px, -30px) rotate(20deg);
+    }
+    75% {
+      transform: scale(0.4, 0.4) translate(-140px, -280px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.6, 0.6);
+    }
+  }
+  @keyframes movement-4 {
+    0% {
+      transform: scale(0.7, 0.7);
+    }
+    25% {
+      transform: scale(0.5, 0.5) translate(-520px, -240px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.8, 0.8) translate(-100px, -40px);
+    }
+    75% {
+      transform: scale(0.6, 0.6) translate(80px, 40px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.7, 0.7) translate(-200px, -240px) rotate(-10deg);
+      ;
+    }
+  }
+  .smile-3 > img:nth-child(1) {
+    height: 80px;
+  }
+  .smile-3 > img:nth-child(2) {
+    height: 80px;
+  }
+  .smile-3 > img:nth-child(3) {
+    height: 80px;
+  }
+  .text-3 > h2 {
+    font-size: 92px;
+    line-height: 88px;
+  }
+  .hands-2 > img {
+    height: 800px;
+  }
+  .tears-2 > .tears {
+    margin-left: 40px;
+  }
+  .tears-2 > .tears > img {
+    height: 100px;
+  }
+  .tears-2 > .eyes > img {
+    height: 96px;
+  }
+  .slide-3 {
+    background: url(../images/slides-3.gif) center;
+  }
+  .tears-3 img {
+    height: 400px;
+  }
+  .tears-3 > img:nth-child(1) {
+    margin-top: -400px;
+  }
+  @keyframes marquee-1 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(400px);
+    }
+  }
+  .eyes-2 > img:nth-child(1) {
+    height: 90px;
+  }
+  .eyes-2> img:nth-child(2) {
+    height: 160px;
+  }
+  .smile-4 > div > img:nth-child(1) {
+    height: 40px;
+    width: 90px;
+    margin-bottom: -64px;
+    margin-left: 56px;
+  }
+  .smile-4 > div > img:nth-child(2) {
+    height: 300px;
+    width: 220px;
+  }
+  .smile-4 > p:nth-child(1) {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .smile-4 > p:nth-child(3) {
+    margin-bottom: 40px;
+    margin-left: 320px;
+    width: 200px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+}
+/*------------------------------------------------------------1366---------------------------------------------------*/
+
+@media screen and (max-width: 1366px) {
+  .container {
+    grid-template-rows: repeat(13, 192px);
+  }
+  /*------------------------------------------------------------1024---------------------------------------------------*/
+  @media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .container {
+      grid-template-rows: repeat(13, 192px);
+    }
+    p {
+      font-size: 24px;
+    }
+    .text-1 {
+      font-size: 9.5vw;
+      line-height: 7vw;
+      padding-top: 64px;
+    }
+  }
+  .text-1 * {
+    padding-left: 32px;
+  }
+  .text-1 #h1-text-1 {
+    padding-left: 16vw;
+  }
+  .smile-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+  }
+  .smile-1 img {
+    width: 64px;
+    height: 32px;
+    padding: 8px;
+  }
+  .scream p:nth-child(1) {
+    margin-left: -130px;
+  }
+  .scream p:nth-child(3) {
+    margin-left: 80px;
+    width: 120px;
+    text-align: right;
+  }
+  .scream-img {
+    background: url('../images/mouth.png') center/60% no-repeat;
+  }
+  .tears-1 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .tears-1 img {
+    height: 40px;
+    width: 24px;
+  }
+  .tears-1 div:nth-child(3n) {
+    display: none;
+  }
+  .slides-1 {
+    background: url(../images/slides-1.gif) center/170% no-repeat;
+  }
+  .slides-1 > div:nth-child(1) {
+    margin-left: 300px;
+    margin-top: 64px;
+    width: 480px;
+  }
+  .slides-1 > div:nth-child(2) {
+    margin-bottom: 64px;
+    width: 480px;
+    margin-left: 570px;
+  }
+  .slides-1 > div:nth-child(2) > img:nth-child() {
+    margin-bottom: 64px;
+    width: 480px;
+    margin-left: 570px;
+  }
+  .child > img:nth-child(1) {
+    height: 690px;
+    width: 215px;
+  }
+  .child > img:nth-child(2) {
+    height: 500px;
+    width: 440px;
+  }
+  .child > img:nth-child(3) {
+    height: 690px;
+    width: 215px;
+  }
+  /*------------------------------------------------------------768---------------------------------------------------*/
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 256px);
+      grid-template-rows: repeat(15, 160px);
+      gap: 0px 0px;
+      grid-template-areas: "text-1 text-1 text-1""text-1 text-1 text-1""scream tears-1 tears-1""scream slides-1 slides-1""child child smile-1""child child smile-1""hands-1 text-2 smile-2""hands-1 text-2 eyes-1""scream-2 smile-3 smile-3""scream-2 text-3 text-3""hands-2 hands-2 tears-2""hands-2 hands-2 tears-2""slide-3 eyes-2 smile-4""tears-3 eyes-2 smile-4""footer footer footer";
+    }
+    .slide-2 {
+      display: none;
+    }
+    p {
+      font-size: 20px;
+    }
+    .text-1 {
+      font-size: 144px;
+      line-height: 96px;
+    }
+    .text-1 * {
+      padding-left: 24px;
+    }
+    .text-1 #h1-text-1 {
+      padding-left: 210px;
+    }
+    .smile-1 {
+      padding-left: 32px;
+      padding-top: 16px;
+      grid-template-rows: repeat(6, 1fr);
+    }
+    .smile-1 img {
+      width: 72px;
+      height: 32px;
+    }
+    .smile-1 img:nth-child(13) {
+      display: none;
+    }
+    .smile-1 img:nth-child(14) {
+      display: none;
+    }
+    .scream p:nth-child(1) {
+      margin-left: -140px;
+      margin-top: 0px;
+    }
+    .scream p:nth-child(3) {
+      margin-left: 40px;
+      width: 160px;
+      text-align: right;
+    }
+    .scream-img {
+      background: url('../images/scream.png') center/55% no-repeat;
+      height: 240px;
+    }
+    .tears-1 img {
+      height: 38px;
+      width: 20px;
+    }
+    .slides-1 {
+      background: url(../images/slides-1.gif) center/120% no-repeat;
+    }
+    .slides-1 > div:nth-child(1) {
+      margin-left: 140px;
+      margin-top: 40px;
+      width: 280px;
+    }
+    .slides-1 > div:nth-child(2) {
+      margin-left: -70px;
+      margin-bottom: 40px;
+      width: 270px;
+    }
+    .child > img:nth-child(1) {
+      height: 460px;
+      width: 144px;
+      margin-top: -80px;
+    }
+    .child > img:nth-child(2) {
+      height: 410px;
+      width: 310px;
+    }
+    .child > img:nth-child(3) {
+      height: 460px;
+      width: 144px;
+    }
+    .hands-1 > p {
+      width: 200px;
+      margin-left: 24px;
+      margin-top: 24px;
+    }
+    .hands-1 > .hands-1-hands {
+      margin-top: 120px;
+    }
+    .hands-1 > .hands-1-hands> img:nth-child(1) {
+      height: 120px;
+    }
+    .hands-1 >.hands-1-hands > img:nth-child(2) {
+      height: 120px;
+    }
+    .hands-1 >.lines {
+      margin-top: 48px;
+      width: 180px;
+      margin-left: 40px;
+    }
+    .hands-1 >.lines> img {
+      height: 32px;
+    }
+    @keyframes hands-1 {
+      0% {
+        transform: translateY(64px) rotate(15deg);
+      }
+      50% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(64px) rotate(15deg);
+      }
+    }
+    @keyframes hands-2 {
+      0% {
+        transform: scale(-1, 1) translateY(0px);
+      }
+      50% {
+        transform: scale(-1, 1) translateY(64px) rotate(15deg);
+        ;
+      }
+      100% {
+        transform: scale(-1, 1) translateY(0px);
+      }
+    }
+    .text-2 > .signs {
+      width: 240px;
+      margin-left: 0px;
+      margin-top: 8px;
+    }
+    .text-2 > .signs > p {
+      font-size: 280px;
+    }
+    .text-2 > .signs > p:last-child {
+      display: none;
+    }
+    .text-2 > .text-2-a {
+      margin-left: 8px;
+      margin-top: -280px;
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .text-2 > .text-2-a > p {
+      font-size: 48px;
+    }
+    .text-2 > .text-2-a > p:nth-child(7n) {
+      display: none;
+    }
+    .smile-2 {
+      background-size: 150%;
+      background-repeat: no-repeat;
+    }
+    .eyes-1 > .brows-1 {
+      width: 240px;
+    }
+    .eyes-1 > .brows-1 img {
+      width: 100px;
+    }
+    .eyes-1 > .eyes-1-1 {
+      width: 200px;
+      margin-left: 24px;
+      margin-top: 0px;
+    }
+    .eyes-1 > .eyes-1-1 img {
+      width: 80px;
+    }
+    .scream-2 > div {
+      margin-left: 20px;
+      margin-top: -380px;
+    }
+    .scream-2 > p {
+      font-size: 280px;
+      margin-left: 24px;
+      margin-top: 0px;
+    }
+    @keyframes movement-1 {
+      0% {
+        transform: scale(0.4, 0.4) translate(100px, 100px);
+      }
+      25% {
+        transform: scale(0.6, 0.6) translate(100px, 200px) rotate(30deg);
+      }
+      50% {
+        transform: scale(0.3, 0.3) translate(-120px, 80px);
+      }
+      75% {
+        transform: scale(0.5, 0.5) translate(180px, 120px) rotate(80deg);
+      }
+      100% {
+        transform: scale(0.4, 0.4) translate(120px, 200px) rotate(-10deg);
+        ;
+      }
+    }
+    @keyframes movement-2 {
+      0% {
+        transform: scale(0.5, 0.5) translate(-300px, 160px);
+      }
+      25% {
+        transform: scale(0.4, 0.4) translate(-320px, 100px) rotate(-10deg);
+      }
+      50% {
+        transform: scale(0.3, 0.3) translate(-360px, 200px) rotate(0deg);
+      }
+      75% {
+        transform: scale(0.5, 0.5) translate(-240px, 200px) rotate(-20deg);
+      }
+      100% {
+        transform: scale(0.5, 0.5) translate(-300px, 160px);
+        ;
+      }
+    }
+    @keyframes movement-3 {
+      0% {
+        transform: scale(0.6, 0.6) translate(60px, -160px);
+      }
+      25% {
+        transform: scale(0.5, 0.5) translate(-60px, -200px) rotate(-10deg);
+      }
+      50% {
+        transform: scale(0.4, 0.4) translate(100px, -30px) rotate(20deg);
+      }
+      75% {
+        transform: scale(0.4, 0.4) translate(100px, -200px) rotate(-20deg);
+      }
+      100% {
+        transform: scale(0.6, 0.6) translate(60px, -160px);
+      }
+    }
+    @keyframes movement-4 {
+      0% {
+        transform: scale(0.5, 0.5) translate(-200px, -240px);
+      }
+      25% {
+        transform: scale(0.5, 0.5) translate(-400px, -240px) rotate(30deg);
+      }
+      50% {
+        transform: scale(0.6, 0.6) translate(-100px, -40px);
+      }
+      75% {
+        transform: scale(0.4, 0.4) translate(-200px, 40px) rotate(80deg);
+      }
+      100% {
+        transform: scale(0.5, 0.5) translate(-200px, -240px) rotate(-10deg);
+        ;
+      }
+    }
+    .smile-3 > img:nth-child(1) {
+      height: 64px;
+    }
+    .smile-3 > img:nth-child(2) {
+      height: 64px;
+    }
+    .smile-3 > img:nth-child(3) {
+      height: 64px;
+    }
+    .text-3 > h2 {
+      font-size: 72px;
+      line-height: 68px;
+      margin-left: 24px;
+    }
+    .hands-2 > img {
+      height: 680px;
+      margin-left: 8px;
+    }
+    .hands-2 > img:nth-child(1) {
+      margin-left: -40px;
+    }
+    .tears-2 > .tears {
+      margin-left: 16px;
+      margin-top: 16px;
+    }
+    .tears-2 > .tears > img {
+      height: 72px;
+    }
+    .tears-2 > .eyes > img {
+      height: 48px;
+    }
+    .slide-3 {
+      background: url(../images/slides-3.gif) center/180%;
+    }
+    .tears-3 img {
+      height: 240px;
+    }
+    .tears-3 > img:nth-child(1) {
+      margin-top: -240px;
+    }
+    @keyframes marquee-1 {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(240px);
+      }
+    }
+    .eyes-2 {
+      padding-left: 24px;
+    }
+    .eyes-2 > img:nth-child(1) {
+      height: 72px;
+    }
+    .eyes-2> img:nth-child(2) {
+      height: 120px;
+    }
+    .smile-4 > div > img:nth-child(1) {
+      height: 32px;
+      width: 80px;
+      margin-bottom: -48px;
+      margin-left: 56px;
+    }
+    .smile-4 > div > img:nth-child(2) {
+      height: 260px;
+      width: 200px;
+    }
+    .smile-4 > p:nth-child(1) {
+      margin-top: 24px;
+      margin-left: 24px;
+    }
+    .smile-4 > p:nth-child(3) {
+      margin-bottom: 24px;
+      margin-left: 144px;
+      width: 200px;
+    }
+    .smile-4 > div {
+      margin-left: 40px;
+    }
+    .footer {
+      padding-top: 40px;
+    }
+  }
+  .footer > img {
+    width: 190px;
+    margin-top: -12px;
+  }
+}
+/*------------------------------------------------------------428---------------------------------------------------*/
+
+@media all and (min-width: 428px) and (max-width: 767px) {
+  .container {
+    min-width: 428px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(21, 140px);
+    gap: 0px 0px;
+    grid-template-areas: "text-1 text-1""text-1 text-1""scream smile-1""scream smile-1""child child""child child""slides-1 slides-1""tears-1 tears-1""hands-1 text-2""hands-1 text-2""scream-2 smile-2""scream-2 eyes-1""text-3 text-3""smile-3 smile-3""hands-2 hands-2""hands-2 hands-2""eyes-2 slide-3""eyes-2 tears-3""smile-4 tears-2""smile-4 tears-2""footer footer";
+  }
+  .slide-2 {
+    display: none;
+  }
+  p {
+    font-size: 20px;
+  }
+  .text-1 {
+    font-size: 18vw;
+    line-height: 14vw;
+    padding-top: 24px;
+  }
+  .text-1 * {
+    padding-left: 20px;
+  }
+  .text-1 #h1-text-1 {
+    padding-left: 28vw;
+  }
+  .smile-1 {
+    padding-left: 32px;
+    padding-top: 20px;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .smile-1 img {
+    width: 72px;
+    height: 32px;
+  }
+  .smile-1 img:nth-child(13) {
+    display: none;
+  }
+  .smile-1 img:nth-child(14) {
+    display: none;
+  }
+  .smile-1 img:nth-child(11) {
+    display: none;
+  }
+  .smile-1 img:nth-child(12) {
+    display: none;
+  }
+  .scream p:nth-child(1) {
+    margin-left: -144px;
+    margin-top: -8px;
+  }
+  .scream p:nth-child(3) {
+    margin-left: 40px;
+    width: 160px;
+    text-align: right;
+  }
+  .scream-img {
+    background: url('../images/scream.png') center/50% no-repeat;
+    height: 200px;
+  }
+  .tears-1 img {
+    height: 32px;
+    width: 16px;
+  }
+  .slides-1 {
+    background: url(../images/slides-1.gif) center/120% no-repeat;
+  }
+  .slides-1 > div:nth-child(1) {
+    margin-left: 120px;
+    margin-top: 32px;
+    width: 290px;
+  }
+  .slides-1 > div:nth-child(2) {
+    margin-left: -70px;
+    margin-bottom: 32px;
+    width: 270px;
+  }
+  .child > img:nth-child(1) {
+    height: 390px;
+    width: 130px;
+    margin-top: -80px;
+  }
+  .child > img:nth-child(2) {
+    height: 360px;
+    width: 280px;
+  }
+  .child > img:nth-child(3) {
+    height: 390px;
+    width: 130px;
+  }
+  .hands-1 > p {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .hands-1 > .hands-1-hands {
+    margin-top: 120px;
+    margin-left: -16px;
+  }
+  .hands-1 > .hands-1-hands> img:nth-child(1) {
+    height: 100px;
+  }
+  .hands-1 >.hands-1-hands > img:nth-child(2) {
+    height: 100px;
+  }
+  .hands-1 >.lines {
+    margin-top: 48px;
+    width: 180px;
+    margin-left: 40px;
+  }
+  .hands-1 >.lines> img {
+    height: 32px;
+  }
+  @keyframes hands-1 {
+    0% {
+      transform: translateY(64px) rotate(15deg);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(64px) rotate(15deg);
+    }
+  }
+  @keyframes hands-2 {
+    0% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+    50% {
+      transform: scale(-1, 1) translateY(64px) rotate(15deg);
+      ;
+    }
+    100% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+  }
+  .text-2 > .signs {
+    width: 160px;
+    margin-left: 18%;
+    margin-top: 0px;
+  }
+  .text-2 > .signs > p {
+    font-size: 280px;
+  }
+  .text-2 > .signs > p:last-child {
+    display: none;
+  }
+  .text-2 > .signs > p:nth-child(1) {
+    display: none;
+  }
+  .text-2 > .text-2-a {
+    margin-left: 14%;
+    margin-top: -280px;
+    width: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .text-2 > .text-2-a > p {
+    font-size: 52px;
+  }
+  .text-2 > .text-2-a > p:nth-child(7n+6) {
+    display: none;
+  }
+  .text-2 > .text-2-a > p:nth-child(7n+2) {
+    display: none;
+  }
+  .text-2 > .text-2-a > p:nth-child(7n+3) {
+    display: none;
+  }
+  .smile-2 {
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
+  .eyes-1 > .brows-1 {
+    width: 46vw;
+  }
+  .eyes-1 > .brows-1 img {
+    width: 18vw;
+  }
+  .eyes-1 > .eyes-1-1 {
+    width: 40vw;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .eyes-1 > .eyes-1-1 img {
+    width: 16vw;
+  }
+  .scream-2 > div {
+    margin-left: 20px;
+    margin-top: -340px;
+  }
+  .scream-2 > p {
+    font-size: 240px;
+    margin-left: 24px;
+    margin-top: 0px;
+  }
+  @keyframes movement-1 {
+    0% {
+      transform: scale(0.4, 0.4) translate(100px, 160px);
+    }
+    25% {
+      transform: scale(0.6, 0.6) translate(100px, 200px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.3, 0.3) translate(-120px, 120px);
+    }
+    75% {
+      transform: scale(0.5, 0.5) translate(180px, 120px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.4, 0.4) translate(120px, 200px) rotate(-10deg);
+      ;
+    }
+  }
+  @keyframes movement-2 {
+    0% {
+      transform: scale(0.5, 0.5) translate(-300px, 160px);
+    }
+    25% {
+      transform: scale(0.4, 0.4) translate(-320px, 160px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.3, 0.3) translate(-360px, 100px) rotate(0deg);
+    }
+    75% {
+      transform: scale(0.5, 0.5) translate(-240px, 200px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.5, 0.5) translate(-300px, 160px);
+      ;
+    }
+  }
+  @keyframes movement-3 {
+    0% {
+      transform: scale(0.6, 0.6) translate(60px, -160px);
+    }
+    25% {
+      transform: scale(0.5, 0.5) translate(-60px, -200px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.4, 0.4) translate(100px, -30px) rotate(20deg);
+    }
+    75% {
+      transform: scale(0.4, 0.4) translate(100px, -200px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.6, 0.6) translate(60px, -160px);
+    }
+  }
+  @keyframes movement-4 {
+    0% {
+      transform: scale(0.5, 0.5) translate(-200px, -240px);
+    }
+    25% {
+      transform: scale(0.5, 0.5) translate(-400px, -240px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.6, 0.6) translate(-160px, -80px);
+    }
+    75% {
+      transform: scale(0.4, 0.4) translate(-200px, -40px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.5, 0.5) translate(-200px, -240px) rotate(-10deg);
+      ;
+    }
+  }
+  .smile-3 > img:nth-child(1) {
+    height: 48px;
+  }
+  .smile-3 > img:nth-child(2) {
+    height: 48px;
+  }
+  .smile-3 > img:nth-child(3) {
+    height: 48px;
+  }
+  .text-3 > h2 {
+    font-size: 13vw;
+    line-height: 12vw;
+    margin-left: 20px;
+  }
+  .hands-2 > img {
+    height: 600px;
+    margin-left: 8px;
+  }
+  .hands-2 > img:nth-child(1) {
+    margin-left: -40px;
+  }
+  .tears-2 > .tears {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  .tears-2 > .tears > img {
+    height: 72px;
+  }
+  .tears-2 > .eyes > img {
+    height: 48px;
+  }
+  .slide-3 {
+    background: url(../images/slides-3.gif) center/180%;
+  }
+  .tears-3 img {
+    height: 240px;
+  }
+  .tears-3 > img:nth-child(1) {
+    margin-top: -240px;
+  }
+  @keyframes marquee-1 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(240px);
+    }
+  }
+  .eyes-2 {
+    padding-left: 24px;
+  }
+  .eyes-2 > img:nth-child(1) {
+    height: 56px;
+  }
+  .eyes-2> img:nth-child(2) {
+    height: 100px;
+  }
+  .smile-4 {
+    justify-content: space-between;
+  }
+  .smile-4 > div > img:nth-child(1) {
+    height: 24px;
+    width: 64px;
+    margin-bottom: -40px;
+    margin-left: 40px;
+  }
+  .smile-4 > div > img:nth-child(2) {
+    height: 160px;
+    width: 120px;
+  }
+  .smile-4 > p:nth-child(1) {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .smile-4 > p:nth-child(3) {
+    margin-bottom: 20px;
+    margin-left: 26vw;
+    width: 200px;
+  }
+  .smile-4 > div {
+    margin-left: 56px;
+  }
+  .footer {
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.footer > img {
+  width: 190px;
+  margin-top: -12px;
+}
+}
+/*------------------------------------------------------------360---------------------------------------------------*/
+
+@media all and (min-device-width: 0px) and (max-device-width: 428px) {
+  .container {
+    display:grid;
+    grid-template-columns:repeat(2,50%);
+    grid-template-rows:repeat(21,120px);
+    gap:0px 0px;
+    grid-template-areas:"text-1 text-1""text-1 text-1""scream smile-1""scream smile-1""child child""child child""slides-1 slides-1""tears-1 tears-1""hands-1 text-2""hands-1 text-2""scream-2 smile-2""scream-2 eyes-1""text-3 text-3""smile-3 smile-3""hands-2 hands-2""hands-2 hands-2""eyes-2 slide-3""eyes-2 tears-3""smile-4 tears-2""smile-4 tears-2""footer footer";
+  }
+  .slide-2 {
+    display: none;
+  }
+  p {
+    font-size: 18px;
+  }
+  .text-1 {
+    font-size: 17vw;
+    line-height: 13vw;
+    padding-top: 24px;
+  }
+  .text-1 * {
+    padding-left: 20px;
+  }
+  .text-1 #h1-text-1 {
+    padding-left: 34vw;
+  }
+  .smile-1 {
+    padding-left: 16px;
+    padding-top: 8px;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .smile-1 img {
+    width: 64px;
+    height: 24px;
+  }
+  .smile-1 img:nth-child(11) {
+    display: none;
+  }
+  .smile-1 img:nth-child(12) {
+    display: none;
+  }
+  .smile-1 img:nth-child(13) {
+    display: none;
+  }
+  .smile-1 img:nth-child(14) {
+    display: none;
+  }
+  .scream p:nth-child(1) {
+    margin-left: -120px;
+    margin-top: -8px;
+  }
+  .scream p:nth-child(3) {
+    margin-left: 24px;
+    width: 160px;
+    text-align: right;
+    margin-bottom: -8px;
+  }
+  .scream-img {
+    background: url('../images/scream.png') center/35% no-repeat;
+    height: 140px;
+  }
+  .tears-1 img {
+    height: 28px;
+    width: 14px;
+  }
+  .slides-1 {
+    background: url(../images/slides-1.gif) center/120% no-repeat;
+  }
+  .slides-1 > div:nth-child(1) {
+    margin-left: 100px;
+    margin-top: 32px;
+    width: 230px;
+  }
+  .slides-1 > div:nth-child(2) {
+    margin-left: -70px;
+    margin-bottom: 32px;
+    width: 240px;
+  }
+  .child > img:nth-child(1) {
+    height: 390px;
+    width: 130px;
+    margin-top: -80px;
+  }
+  .child > img:nth-child(2) {
+    height: 360px;
+    width: 280px;
+  }
+  .child > img:nth-child(3) {
+    height: 390px;
+    width: 130px;
+  }
+  .hands-1 > p {
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .hands-1 > .hands-1-hands {
+    margin-top: 120px;
+    margin-left: -16px;
+  }
+  .hands-1 > .hands-1-hands> img:nth-child(1) {
+    height: 90px;
+  }
+  .hands-1 >.hands-1-hands > img:nth-child(2) {
+    height: 90px;
+  }
+  .hands-1 >.lines {
+    margin-top: 48px;
+    width: 140px;
+    margin-left: 40px;
+  }
+  .hands-1 >.lines> img {
+    height: 24px;
+  }
+  @keyframes hands-1 {
+    0% {
+      transform: translateY(64px) rotate(15deg);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(64px) rotate(15deg);
+    }
+  }
+  @keyframes hands-2 {
+    0% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+    50% {
+      transform: scale(-1, 1) translateY(64px) rotate(15deg);
+      ;
+    }
+    100% {
+      transform: scale(-1, 1) translateY(0px);
+    }
+  }
+  .text-2 > .signs {
+    width: 120px;
+    margin-left: 24px;
+    margin-top: 0px;
+  }
+  .text-2 > .signs > p {
+    font-size: 200px;
+  }
+  .text-2 > .signs > p:last-child {
+    display: none;
+  }
+  .text-2 > .signs > p:nth-child(1) {
+    display: none;
+  }
+  .text-2 > .text-2-a {
+    margin-left: 4%;
+    margin-top: -220px;
+    width: 160px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .text-2 > .text-2-a > p {
+    font-size: 44px;
+  }
+  .text-2 > .text-2-a > p:nth-child(7n) {
+    display: none;
+  }
+  .smile-2 {
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
+  .eyes-1 > .brows-1 {
+    width: 46vw;
+  }
+  .eyes-1 > .brows-1 img {
+    width: 20vw;
+  }
+  .eyes-1 > .eyes-1-1 {
+    width: 40vw;
+    margin-left: 18px;
+    margin-top: 0px;
+  }
+  .eyes-1 > .eyes-1-1 img {
+    width: 16vw;
+  }
+  .scream-2 > div {
+    margin-left: -20px;
+    margin-top: -340px;
+  }
+  .scream-2 > p {
+    font-size: 200px;
+    margin-left: 32px;
+    margin-top: 16px;
+  }
+  @keyframes movement-1 {
+    0% {
+      transform: scale(0.4, 0.4) translate(100px, 160px);
+    }
+    25% {
+      transform: scale(0.3, 0.3) translate(100px, 200px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.3, 0.3) translate(-120px, 120px);
+    }
+    75% {
+      transform: scale(0.2, 0.2) translate(180px, 120px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.4, 0.4) translate(120px, 200px) rotate(-10deg);
+      ;
+    }
+  }
+  @keyframes movement-2 {
+    0% {
+      transform: scale(0.3, 0.3) translate(-300px, 160px);
+    }
+    25% {
+      transform: scale(0.4, 0.4) translate(-320px, 180px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.3, 0.3) translate(-360px, 180px) rotate(0deg);
+    }
+    75% {
+      transform: scale(0.2, 0.2) translate(-240px, 200px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.3, 0.3) translate(-300px, 160px);
+      ;
+    }
+  }
+  @keyframes movement-3 {
+    0% {
+      transform: scale(0.4, 0.4) translate(60px, -120px);
+    }
+    25% {
+      transform: scale(0.2, 0.2) translate(-60px, -200px) rotate(-10deg);
+    }
+    50% {
+      transform: scale(0.3, 0.3) translate(100px, -80px) rotate(20deg);
+    }
+    75% {
+      transform: scale(0.2, 0.2) translate(100px, -160px) rotate(-20deg);
+    }
+    100% {
+      transform: scale(0.4, 0.4) translate(60px, -160px);
+    }
+  }
+  @keyframes movement-4 {
+    0% {
+      transform: scale(0.4, 0.4) translate(-200px, -240px);
+    }
+    25% {
+      transform: scale(0.3, 0.3) translate(-400px, -240px) rotate(30deg);
+    }
+    50% {
+      transform: scale(0.2, 0.2) translate(-160px, -80px);
+    }
+    75% {
+      transform: scale(0.4, 0.4) translate(-200px, -140px) rotate(80deg);
+    }
+    100% {
+      transform: scale(0.4, 0.4) translate(-200px, -240px) rotate(-10deg);
+      ;
+    }
+  }
+  .smile-3 > img:nth-child(1) {
+    height: 48px;
+  }
+  .smile-3 > img:nth-child(2) {
+    height: 48px;
+  }
+  .smile-3 > img:nth-child(3) {
+    height: 48px;
+  }
+  .text-3 > h2 {
+    margin-top: 8px;
+    font-size: 16vw;
+    line-height: 13vw;
+    margin-left: 20px;
+  }
+  .hands-2 > img {
+    height: 600px;
+    margin-left: 8px;
+  }
+  .hands-2 > img:nth-child(1) {
+    margin-left: -40px;
+  }
+  .tears-2 > .tears {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  .tears-2 > .tears > img {
+    height: 72px;
+  }
+  .tears-2 > .eyes > img {
+    height: 48px;
+  }
+  .slide-3 {
+    background: url(../images/slides-3.gif) center/180%;
+  }
+  .tears-3 img {
+    height: 240px;
+  }
+  .tears-3 > img:nth-child(1) {
+    margin-top: -240px;
+  }
+  @keyframes marquee-1 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(240px);
+    }
+  }
+  .eyes-2 {
+    padding-left: 24px;
+  }
+  .eyes-2 > img:nth-child(1) {
+    height: 56px;
+  }
+  .eyes-2> img:nth-child(2) {
+    height: 100px;
+  }
+  .smile-4 {
+    justify-content: space-between;
+  }
+  .smile-4 > div > img:nth-child(1) {
+    height: 24px;
+    width: 64px;
+    margin-bottom: -40px;
+    margin-left: 40px;
+  }
+  .smile-4 > div > img:nth-child(2) {
+    height: 160px;
+    width: 120px;
+  }
+  .smile-4 > p:nth-child(1) {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .smile-4 > p:nth-child(3) {
+    margin-bottom: 20px;
+    margin-left: 26vw;
+    width: 200px;
+  }
+  .smile-4 > div {
+    margin-left: 56px;
+  }
+  .footer {
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.footer > img {
+  width:160px;
+  margin-top:-12px;
+}
+}   

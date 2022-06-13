@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>рука об руку</title>
+	<link href="styles/style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="bg"></div>
+<div class="container">
+
+</div>
+
+</body>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+for (var i=0; i<5; i++){
+
+$('.container').append('<img src="images/bg_circle.png" class="bg_circle">');
+
+    $('.bg_circle').each(function(){
+        $(this).css({"left": Math.random() * 0.9*parseInt($('.container').css("width")) - 0.3*parseInt($('.container').css("width")) , 
+          "top": Math.random() * parseInt($('.container').css("height"))-0.5*parseInt($('.container').css("height")),
+          "width": (Math.random() * 1200 + 400) +'px',
+          "opacity": Math.random() * 0.6 + 0.2
+      });      
+      });
+
+        
+
+        function move() {
+        	$('.bg_circle').each(function(){
+  				$(this).addClass('bg_circle2');
+  			})
+  			$('.bg_circle2').each(function(){
+        $(this).css({"left": Math.random() * 0.9*parseInt($('.container').css("width")) - 0.3*parseInt($('.container').css("width")) , 
+          "top": Math.random() * parseInt($('.container').css("height"))-0.5*parseInt($('.container').css("height")),
+          "width": (Math.random() * 1200 + 400) +'px',
+          "opacity": Math.random() * 0.6 + 0.2
+      });      
+      });
+		}
+		setInterval(move, 1000);
+}
+
+});
+
+</script>
+</html>
