@@ -1,0 +1,23 @@
+.container{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg_sky_404.png");
+  overflow: hidden;
+}
+h1 {
+	font-size: 36vw;
+	opacity: .2;
+	color: white;
+	text-align: center;
+	top: 0vh;
+}
+
+h2 {
+	color: white;
+	margin-top: 40vh;
+}
+
+header a{
+	color: white;
+}

@@ -1,0 +1,104 @@
+	.container{
+		background-color: white;
+		background-image: none;
+		overflow: hidden;
+	}
+.content {  
+	z-index: 100;
+	position: relative;
+	top: 20vh;
+	  width:95%;
+overflow: hidden;
+ left:5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: auto 24vh 45vh 10vh auto auto 10vh auto 82vh auto 10vh auto 70vh 12vh;
+  gap: 40px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "bread bread bread bread"
+    "video video video video"
+    ". description description description"
+    ". . . ."
+    "title1 about1 about1 ."
+    ". text1-1 text1-2 ."
+    ". . . ."
+    "title2 text2 . ."
+    ". pic2 pic2 pic2"
+    ". about2 about2 ."
+    ". . . ."
+    "title3 text3-1 text3-2 pic3"
+    ". about3 about3 pic3"
+    ". . . .";
+}
+.bread { grid-area: bread; }
+.bread a{text-decoration: underline;}
+.video { grid-area: video;}
+
+.introduction { 
+	grid-area: description; 
+align-self: end;}
+
+.title1 { grid-area: title1; }
+
+.about1 { grid-area: about1; }
+
+.text1-1 { grid-area: text1-1; }
+
+.text1-2 { grid-area: text1-2; }
+
+.title2 { grid-area: title2; }
+
+.text2 { grid-area: text2; }
+
+.pic2 { grid-area: pic2; }
+
+.about2 { grid-area: about2; }
+
+.title3 { grid-area: title3; }
+
+.text3-1 { grid-area: text3-1; }
+
+.text3-2 { grid-area: text3-2; }
+
+.about3 { grid-area: about3; }
+
+.pic3 { grid-area: pic3; }
+
+h2{
+	text-align: left;
+	width: 85%;
+}
+
+.imghouse
+{
+	height: 80vh;
+	position: absolute;
+}
+.imgbook{
+	position: absolute;
+	height: 70vh;
+}
+.pic2-bg{
+	background-color: var(--blue);
+	 filter:blur(1000px);
+	 width: 100%;
+	 height: 82vh;
+	 position: absolute;
+}
+
+#pointer-circle{
+	border: 2px solid red;
+}
+
+.review-btn:hover {
+	color: white;
+	border-color: white;
+	z-index: 1000;
+}
+
+.btn-arrow {
+	width:34px;
+	height: 34px;
+	background-image: url(../images/btn-arrow.svg)
+}
